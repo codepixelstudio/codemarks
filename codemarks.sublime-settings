@@ -1,0 +1,61 @@
+{
+	// print to console
+	"verbose": false,
+
+	// save marks on save
+	"cache_marks_on_save": true,
+
+	// save marks on close
+	"cache_marks_on_close": true,
+	
+	// auto-load saved marks on file open
+	"uncache_marks_on_load": true,
+
+	// delete cache on file close
+	"cleanup_empty_cache_on_close": true,
+	
+	// define available layers
+	"layer_icons": {
+		
+		// default ST3 bookmark
+		"bookmarks": {
+
+			"icon"  : "bookmark", 
+			"scope" : "string"
+
+		},
+
+		// function
+		"functions" : {
+
+			"icon"  : "Packages/codemarks/icons/function.png",
+			"scope" : "string"
+
+		},
+
+		// 2Do item
+		"todos" : {
+
+			"icon"  : "Packages/codemarks/icons/todo.png",
+			"scope" : "comment"
+
+		},
+	
+	},
+
+	// selected layer on start
+	"default_layer": "functions",
+	/*
+	 * Where, if anywhere, should codemarks show the user what layer they're on when they switch layers. This value can be any combination of the following possible values; you don't have to pick just one!
+	 *
+	 * Possible values:
+	 *    popup: Shows a popup with the name of the currently selected layer at the cursor location.
+	 *    temporary: Shows the layer name in the status bar for a brief amount of time.
+	 *    permanent: Shows the layer name in the status bar permanently (unless "permanent" is removed from the settings).
+	 */
+	"layer_status_location": ["temporary"],
+	
+	// full line mark
+	"mark_whole_line": true
+
+}

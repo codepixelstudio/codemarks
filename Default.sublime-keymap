@@ -1,0 +1,35 @@
+[
+	{
+		"description": "previous layer",
+		"keys": ["super+shift+f13"], "command": "codemarks",
+		"args": {"direction": "prev", "subcommand": "layer_swap"}
+	},
+	{
+		"description": "next layer",
+		"keys": ["super+shift+f15"], "command": "codemarks",
+		"args": {"direction": "next", "subcommand": "layer_swap"}
+	},
+	{   
+		"description": "previous mark",
+		"keys": ["f9"], "command": "prev_bookmark"
+	},
+	{
+		"description": "next mark",
+		"keys": ["f10"], "command": "next_bookmark"
+	},
+	{
+		"description": "mark line",
+		"keys": ["super+shift+f14"], "command": "codemarks",
+		"args": {"subcommand": "mark_line"}
+	},
+	{
+		"description": "remove current marks",
+		"keys": ["super+alt+f12"], "command": "codemarks",
+		"args": {"subcommand": "clear_marks"}
+	},
+	{
+		"description": "remove all marks",
+		"keys": ["super+shift+f12"], "command": "codemarks",
+		"args": {"subcommand": "clear_all"}
+	},
+]
