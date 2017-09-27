@@ -19,7 +19,7 @@ def Log( message ):
 
 def Settings():
 
-    return sublime.load_settings('codemarks.sublime-settings')
+    return sublime.load_settings( 'codemarks.sublime-settings' )
 
 def Variable( var, window=None):
 	

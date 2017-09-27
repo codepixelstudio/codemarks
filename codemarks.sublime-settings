@@ -1,15 +1,15 @@
 {
 	// print to console
-	"verbose": false,
+	"verbose": true,
 
 	// save marks on save
-	"cache_marks_on_save": true,
+	"cache_marks_on_save": false,
 
 	// save marks on close
-	"cache_marks_on_close": true,
+	"cache_marks_on_close": false,
 	
 	// auto-load saved marks on file open
-	"uncache_marks_on_load": true,
+	"uncache_marks_on_load": false,
 
 	// delete cache on file close
 	"cleanup_empty_cache_on_close": true,
@@ -20,31 +20,111 @@
 		// default ST3 bookmark
 		"bookmarks": {
 
-			"icon"  : "bookmark", 
+			"icon"  : "Packages/codemarks/icons/bookmark.png", 
 			"scope" : "string"
 
 		},
 
 		// function
-		"functions" : {
+		"function" : {
 
 			"icon"  : "Packages/codemarks/icons/function.png",
+			"scope" : "variable"
+
+		},
+
+		// task
+		"task" : {
+
+			"icon"  : "Packages/codemarks/icons/task.png",
+			"scope" : "variable"
+
+		},
+
+		// info
+		"info" : {
+
+			"icon"  : "Packages/codemarks/icons/info.png",
+			"scope" : "support.variable.parameter"
+
+		},
+
+		// alert
+		"alert" : {
+
+			"icon"  : "Packages/codemarks/icons/alert.png",
+			"scope" : "other.package.exclude"
+
+		},
+
+		// warning
+		"warning" : {
+
+			"icon"  : "Packages/codemarks/icons/warning.png",
 			"scope" : "string"
 
 		},
 
-		// 2Do item
-		"todos" : {
+		// inquiry
+		"inquiry" : {
 
-			"icon"  : "Packages/codemarks/icons/todo.png",
-			"scope" : "comment"
+			"icon"  : "Packages/codemarks/icons/inquiry.png",
+			"scope" : "variable"
+
+		},
+
+		// docs
+		"docs" : {
+
+			"icon"  : "Packages/codemarks/icons/docs.png",
+			"scope" : "variable"
+
+		},
+
+		// caution
+		"caution" : {
+
+			"icon"  : "Packages/codemarks/icons/caution.png",
+			"scope" : "string"
+
+		},
+
+		// terminal
+		"terminal" : {
+
+			"icon"  : "Packages/codemarks/icons/terminal.png",
+			"scope" : "variable"
+
+		},
+
+		// github
+		"github" : {
+
+			"icon"  : "Packages/codemarks/icons/github.png",
+			"scope" : "variable"
+
+		},
+
+		// foobar
+		"foobar" : {
+
+			"icon"  : "Packages/codemarks/icons/foobar.png",
+			"scope" : "variable"
+
+		},
+
+		// design
+		"design" : {
+
+			"icon"  : "Packages/codemarks/icons/design.png",
+			"scope" : "variable"
 
 		},
 	
 	},
 
 	// selected layer on start
-	"default_layer": "functions",
+	"default_layer": "function",
 	/*
 	 * Where, if anywhere, should codemarks show the user what layer they're on when they switch layers. This value can be any combination of the following possible values; you don't have to pick just one!
 	 *

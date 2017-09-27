@@ -1,12 +1,12 @@
 [
 	{
 		"description": "previous layer",
-		"keys": ["super+shift+f13"], "command": "codemarks",
+		"keys": ["ctrl+alt+super+3"], "command": "codemarks",
 		"args": {"direction": "prev", "subcommand": "layer_swap"}
 	},
 	{
 		"description": "next layer",
-		"keys": ["super+shift+f15"], "command": "codemarks",
+		"keys": ["ctrl+alt+super+5"], "command": "codemarks",
 		"args": {"direction": "next", "subcommand": "layer_swap"}
 	},
 	{   
@@ -19,7 +19,7 @@
 	},
 	{
 		"description": "mark line",
-		"keys": ["super+shift+f14"], "command": "codemarks",
+		"keys": ["ctrl+alt+super+4"], "command": "codemarks",
 		"args": {"subcommand": "mark_line"}
 	},
 	{
